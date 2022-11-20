@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="stykle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <div class="card">
+        <img class="star_icon" src="images/icon-star.svg" alt="Star" />
+        <h1 class="heading">How did we do?</h1>
+        <p class="para">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating">
+          <div class="b1 stars">1</div>
+          <div class="b2 stars">2</div>
+          <div class="b3 stars">3</div>
+          <div class="b4 stars">4</div>
+          <div class="b5 stars">5</div>
+        </div>
+
+        <button class="submit">Submit</button>
+      </div>
+
+      <div class="card2 hidden">
+        <img src="images/illustration-thank-you.svg" alt="">
+        <br>
+        <h1 class="heading_1">You selected <a href="#" class="rated"> </a> out of 5</h1>
+        <h2 class="para_1">Thank you!</h2>
+        <h3 class="para_2">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don't hesitate to get in touch!</h3>
+        
+      </div>
+
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
