@@ -131,6 +131,15 @@ body {
   .card{
     width:50%;
   }
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .b5 {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: .95rem;
+  }
   .card2{
     width:50%;
   }
@@ -138,6 +147,18 @@ body {
 @media (max-width:630px){
   .card{
     width:55%;
+  }
+  .para{
+    font-size:14px;
+  }
+  .b1,
+  .b2,
+  .b3,
+  .b4,
+  .b5 {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: .9rem;
   }
   .card2{
     width:55%;
@@ -149,6 +170,9 @@ body {
   }
   .card2{
     width:60%;
+  }
+  .para{
+    font-size:13px;
   }
   .para_2{
     font-size:14px;
@@ -169,6 +193,9 @@ body {
   }
   .card2{
     width:70%;
+  }
+  .para{
+    font-size:13px;
   }
   .para_2{
     font-size:13px;
